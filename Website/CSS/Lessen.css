@@ -10,6 +10,10 @@
     padding-top: 20px; /* De ruimte tussen de woorden en de top van het scherm*/
 }
 
+.sidenav img {
+    padding: 5px; /* padding voor het logo */
+}
+
 .sidenav a {
     padding: 6px 8px 6px 16px; /* De ruimte van de woorden dus 6px top 8px rechts 6px bodem en 16 px links */
     text-decoration: none; /* Hier kan je de text docoreren met lijntjes maar hier zit niks in dus zie je het niet */
