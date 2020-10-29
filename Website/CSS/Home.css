@@ -6,7 +6,9 @@
     left: 0px;
     z-index: 1;
     position: -webkit-sticky;
-    position: sticky; /* Werkt niet voor een reden */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px; /* Werkt niet voor een reden */
     
 }
 
