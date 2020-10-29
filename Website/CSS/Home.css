@@ -7,8 +7,7 @@
     z-index: 1;
     position: -webkit-sticky;
     position: -webkit-sticky;
-    position: sticky;
-    top: 20px; /* Werkt niet voor een reden */
+    position: sticky; /* Werkt niet voor een reden */
     
 }
 
@@ -31,6 +30,8 @@
     margin-top: 0px;
     z-index: -1;
     position: absolute;
+    height: auto;
+    background-color: #111;
 }
 
 html,body 
