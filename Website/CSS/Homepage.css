@@ -1,6 +1,6 @@
 .sidenav {
     height: 100%; /* De hoogte van de div block */
-    width: 160px; /* De breede van de div block */
+    width: 200px; /* De breede van de div block */
     position: fixed; /* Dit zorgt ervoor dat het altijd het zelfde blijft dus waneer je naar beneden scrold gaat het niet verder naar beneden */
     z-index: 1; /* de laag waar het opzit vergelijkbaar met de lagen die je hebt in photoshop*/
     top: 0; /* De ruimte tussen de div en de top */
@@ -11,7 +11,7 @@
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px; /* De ruimte tussen de woorden */
+    padding: 6px 8px 6px 16px; /* De ruimte van de woorden dus 6px top 8px rechts 6px bodem en 16 px links */
     text-decoration: none; /* Hier kan je de text docoreren met lijntjes maar hier zit niks in dus zie je het niet */
     font-size: 25px; /* De Groote van de text */
     color: #818181; /* De kleur van de text in de navigatie balk */
@@ -23,7 +23,7 @@
 }
 
 .main {
-    margin-left: 160px; /* Zelfde Width van de sidenav */
+    margin-left: 200px; /* Zelfde Width van de sidenav */
     font-size: 28px; /* De Groote van de text */
     padding: 0px 10px; /* Zorgt ervoor dat de text niet naast de navigatie balk zit */ 
 }
